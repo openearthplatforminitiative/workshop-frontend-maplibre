@@ -2,6 +2,8 @@
 
 import * as React from 'react';
 import Map, { NavigationControl } from 'react-map-gl/maplibre';
+import { WeatherMarker } from './weather-marker';
+
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 export function MapComponent() {
@@ -16,6 +18,7 @@ export function MapComponent() {
       mapStyle="https://tiles.openfreemap.org/styles/liberty"
     >
       <NavigationControl />
+      <WeatherMarker />
     </Map>
   );
 }
