@@ -16,6 +16,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Use getWeather in weather-action.ts to retrieve the data
+
 ## Useful Links
 
 - [Map Components Guide](https://developer.openepi.io/how-tos/getting-started-with-map-components)
