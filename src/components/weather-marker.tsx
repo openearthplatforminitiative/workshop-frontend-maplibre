@@ -53,7 +53,7 @@ export const WeatherMarker = () => {
             <button className="absolute top-1 right-3 text-2xl text-gray-500 hover:text-gray-700 curosr-pointer" onClick={handleMarkerClick}>X</button>
             <div className="flex items-center justify-between">
               <Image src={`/weather-icons/${symbol}.png`} alt="Weather icon" width={100} height={100} />
-              <div className="grid grid-cols-2">
+              <div className="grid grid-rows-3">
                 {temperature && (
                   <p><span className="font-bold">Temperature:</span> {temperature} °C</p>
                 )}
